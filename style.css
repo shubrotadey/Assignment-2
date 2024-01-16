@@ -485,10 +485,22 @@ footer hr {
 }
 
 /* Responsive */
+@media screen and (max-width: 1400px ) {
+	.container {
+		width: 90%;
+	}
+	.header{
+		height: 300px;
+	}
+	.header-container{
+		width: 90%;
+	}
+}
 @media screen and (max-width: 425px) {
 	.container {
 		width: 90%;
 	}
+
 	.navbar .icon {
 		font-size: 22px;
 	}
@@ -504,12 +516,14 @@ footer hr {
 		padding: 0;
 		background-position: top;
 		border-radius: 19px;
+		height: 100%;
 	}
 	.header h1 {
 		font-size: 22px;
 	}
 	.header-container {
 		width: 80%;
+		padding: 20px 0;
 	}
 	.header .input-group input {
 		margin: 0;
